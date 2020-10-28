@@ -57,7 +57,11 @@ public class Barista{
 		System.out.println("My name is " + name);
 		System.out.println("I am working as a " + post);
 		System.out.println("My salary is " + salary);
-		System.out.println("My responsibilities are to " + responsibilities);
+		System.out.print("My responsibilities are to ");
+		for(String e : responsibilities){
+			System.out.print(e + " ");
+		}
+		System.out.println();
 		System.out.println("I have " + money + " rub.");
 	}
 }
